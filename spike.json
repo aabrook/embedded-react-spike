@@ -1,0 +1,21 @@
+{
+    "source": "https://raw.githubusercontent.com/aabrook/embedded-react-spike/master/build/static/js/main.a83eef68.chunk.js",
+    "state": {
+        "title": {
+            "type": "text",
+            "default": "My peeps"
+        },
+        "width": {
+            "type": "text",
+            "default": "320px"
+        },
+        "friends": {
+            "type": "text",
+            "default": ""
+        },
+        "className": {
+            "type": "text",
+            "default": ""
+        }
+    }
+}
