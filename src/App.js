@@ -23,12 +23,9 @@ function App() {
   );
 }
 
-const SomeComponent = (props) => {
+export const SomeComponent = (props) => {
   console.log({ props })
   return <h2>Just Some Component</h2>
 }
-
-document.components = {}
-document.components['embedded-component'] = { SomeComponent }
 
 export default App;
