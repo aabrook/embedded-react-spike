@@ -28,6 +28,7 @@ const SomeComponent = (props) => {
   return <h2>Just Some Component</h2>
 }
 
+window.components = {}
 window.components['embedded-component'] = { SomeComponent }
 
 export default App;
