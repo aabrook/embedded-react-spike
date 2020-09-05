@@ -16,5 +16,7 @@ ReactDOM.render(
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
 
-document.components = {}
-document.components['embedded-component'] = { SomeComponent }
+window.global.components = {}
+window.global.components['embedded-component'] = { SomeComponent }
+
+console.log('Loaded my component')
