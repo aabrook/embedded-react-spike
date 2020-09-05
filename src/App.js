@@ -23,4 +23,11 @@ function App() {
   );
 }
 
+const SomeComponent = (props) => {
+  console.log({ props })
+  return <h2>Just Some Component</h2>
+}
+
+document['embedded-component'].components = { SomeComponent }
+
 export default App;
